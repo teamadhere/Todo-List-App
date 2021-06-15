@@ -1,81 +1,97 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-image: linear-gradient(180deg, white, lightblue, blue);
-    height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 100vh;
 }
 
-.mainDiv, .container {
-    width: 100%;
-    text-align: center;
+.mainDiv,
+.container {
+  width: 100%;
+  text-align: center;
 }
 
 .mainDiv {
-    padding-top: 4%;
+  padding-top: 4%;
 }
 
 .addBtn {
-    font-size: 16px;
-    height: 25px;
-    width: 25px;
-    font-weight: bold;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+  vertical-align: middle;
+  height: 4rem;
+  width: 4rem;
+  font-weight: bold;
+  color: white;
+  background: rgb(50, 50, 50);
+  background: radial-gradient(
+    circle,
+    rgba(50, 50, 50, 1) 0%,
+    rgba(90, 90, 136, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
 }
 
 .inputField {
-    border: none;
-    background-color: white;
-    color: black;
-    font-size: 16px;
-    height: 25px;
-    width: 40%;
-    border-radius: 16px;
-    padding-left: 10px;
-    margin-right: 10px;
-    outline: none;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  height: 5rem;
+  width: 40rem;
+  border-radius: 16px;
+  padding-left: 10px;
+  margin-right: 10px;
+  outline: none;
 }
 
-.editBtn  {
-    cursor: pointer;
-    color: greenyellow;
-    background-color: transparent;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    margin-right: 10px;
+.editBtn {
+  cursor: pointer;
+  color: greenyellow;
+  background-color: transparent;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
 }
 
-.deleteBtn  {
-    cursor: pointer;
-    color: red;
-    background-color: transparent;
-    font-size: 16px;
-    border: none;
-    outline: none;
+.deleteBtn {
+  cursor: pointer;
+  color: red;
+  background-color: transparent;
+  font-size: 16px;
+  border: none;
+  outline: none;
 }
 
 .item {
-    height: 25px;
-    border: none;
-    border-radius: 16px;
-    margin-right: 10px;
-    background-color: white;
-    width: 25%;
-    color: black;
-    padding-left: 10px;
-    outline: none;
-    font-size: 15px;
+  height: 25px;
+  border: none;
+  border-radius: 16px;
+  margin-right: 10px;
+  background-color: white;
+  width: 25%;
+  color: black;
+  padding-left: 10px;
+  outline: none;
+  font-size: 15px;
 }
 
 .main {
-    padding-top: 4%;
+  padding-top: 4%;
 }
