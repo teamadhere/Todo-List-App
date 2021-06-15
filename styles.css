@@ -1,91 +1,137 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: rgb(2, 0, 36);
-    background: linear-gradient( 90deg, rgb(110, 104, 231) 0%, rgb(37, 37, 204) 35%, rgb(84, 156, 170) 100%);
-    height: 100vh;
+  height: 100vh;
+  background-image: linear-gradient(
+    to left bottom,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
 }
 
 .mainDiv,
 .container {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
-.mainDiv {
-    padding-top: 4%;
-}
 
 .addBtn {
-    font-size: 25px;
-    text-align: center;
-    margin: auto;
-    vertical-align: middle;
-    height: 4rem;
-    width: 4rem;
-    font-weight: bold;
-    color: white;
-    background: rgb(50, 50, 50);
-    background: radial-gradient( circle, rgba(50, 50, 50, 1) 0%, rgba(90, 90, 136, 1) 0%, rgba(0, 0, 0, 1) 100%);
-    border: none;
-    border-radius: 50px;
-    outline: none;
-    cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+  vertical-align: middle;
+  height: 4rem;
+  width: 4rem;
+  font-weight: bold;
+  color: white;
+  background: radial-gradient(
+    circle,
+    rgba(50, 50, 50, 1) 0%,
+    rgba(90, 90, 136, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 1s ease-in-out;
+}
+.addBtn:hover {
+  color: greenyellow;
+  background;: #008e9b
 }
 
 .inputField {
-    border: none;
-    background-color: white;
-    color: black;
-    font-size: 16px;
-    height: 5rem;
-    width: 40rem;
-    border-radius: 16px;
-    padding-left: 10px;
-    margin-right: 10px;
-    outline: none;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  height: 5rem;
+  width: 40rem;
+  border-radius: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  outline: none;
 }
 
 .editBtn {
-    cursor: pointer;
-    color: greenyellow;
-    background-color: transparent;
-    font-size: 16px;
-    border: 1px solid;
-    padding: 0.5rem;
-    outline: none;
-    margin-right: 10px;
-    font-weight: bold;
+  cursor: pointer;
+  color: greenyellow;
+  background-color: transparent;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  outline: none;
+  margin-right: 10px;
+  margin-left: 3rem;
+  font-weight: bold;
+  transition: background-color 0.5s;
 }
 
 .deleteBtn {
-    cursor: pointer;
-    color: red;
-    background-color: transparent;
-    font-size: 16px;
-    border: 1px solid;
-    padding: 0.5rem;
-    outline: none;
-    font-weight: bold;
+  cursor: pointer;
+  color: red;
+  background-color: transparent;
+  font-size: 16px;
+  border-radius: 1.5rem;
+  border: 1px solid;
+  padding: 0.5rem;
+  outline: none;
+  font-weight: bold;
+  transition: background-color 0.5s;
 }
-
+.deleteBtn:hover {
+  background-color: #ff9671;
+  color: white;
+}
+.editBtn:hover {
+  background-color: #008e9b;
+  color: white;
+}
 .item {
-    height: 25px;
-    border: none;
-    border-radius: 16px;
-    margin-right: 10px;
-    background-color: white;
-    width: 25%;
-    color: black;
-    padding-left: 10px;
-    outline: none;
-    font-size: 15px;
+  height: 3rem;
+  border: none;
+  border-radius: 16px;
+  margin-right: 10px;
+  background-color: white;
+  width: 45%;
+  color: black;
+  padding-left: 10px;
+  outline: none;
+  font-size: 22px;
 }
 
 .main {
-    padding-top: 4%;
+  padding-top: 1rem;
+}
+h1{
+    margin-top: 1rem;
+    font-size: 5rem;
+    font-weight: 10;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    color:#00ff9d;
+    font-stretch: extra-expanded;
+    background-color: black;
+}
+.heading{
+    font-weight: 500;
+    font-family:"Impact";
 }
