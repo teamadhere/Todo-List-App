@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(180deg, white, lightblue, blue);
+    height: 100vh;
+}
+
+.mainDiv, .container {
+    width: 100%;
+    text-align: center;
+}
+
+.mainDiv {
+    padding-top: 4%;
+}
+
+.addBtn {
+    font-size: 16px;
+    height: 25px;
+    width: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.inputField {
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    height: 25px;
+    width: 40%;
+    border-radius: 16px;
+    padding-left: 10px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.editBtn  {
+    cursor: pointer;
+    color: greenyellow;
+    background-color: transparent;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+.deleteBtn  {
+    cursor: pointer;
+    color: red;
+    background-color: transparent;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.item {
+    height: 25px;
+    border: none;
+    border-radius: 16px;
+    margin-right: 10px;
+    background-color: white;
+    width: 25%;
+    color: black;
+    padding-left: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+.main {
+    padding-top: 4%;
+}
